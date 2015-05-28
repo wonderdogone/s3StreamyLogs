@@ -35,7 +35,7 @@ app.use(morgan('combined', {stream: s3logger}));
 
 ```
 
-#### currently the logged files will be named as date_uniqueid.<yourextension>
+#### currently the logged files will be named as date_uniqueid.extension
 
 
 
