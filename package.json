@@ -1,0 +1,33 @@
+{
+  "name": "s3streamylogs",
+  "version": "0.0.1",
+  "description": "s3logger provided a streaming interface to your AWS S3 buckets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wonderdogone/s3StreamyLogs.git"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "streams",
+    "s3",
+    "bucket",
+    "logs",
+    "stream",
+    "logs"
+  ],
+  "author": "JW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wonderdogone/s3StreamyLogs/issues"
+  },
+  "homepage": "https://github.com/wonderdogone/s3StreamyLogs",
+  "dependencies": {
+    "node-uuid": "^1.4.3",
+    "s3-streaming-upload": "^0.2.1"
+  }
+}
