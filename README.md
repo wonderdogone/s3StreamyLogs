@@ -1,5 +1,5 @@
 # s3StreamyLogs
-s3logger provided a streaming interface to your AWS S3 buckets.
+#### s3logger provided a streaming interface to your AWS S3 buckets.
 
 ### Simply provide your AWS credentials, bucket name, and file extension.Something like
 ```
