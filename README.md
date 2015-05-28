@@ -19,7 +19,7 @@ Example using Redis Pub/Sub.
 var client1 = redis.createClient(6379, '127.0.0.1');
 
 client1.on("ready", function () {
-  client1.subscribe("a nice channel", "another one");
+  client1.subscribe("a nice channel");
 });
 
 client1.on("message", function (channel, message) {
